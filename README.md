@@ -1,65 +1,111 @@
-AI Resume Analyzer 🚀
+🚀 AI Resume Analyzer
+An AI-powered web application that evaluates resumes, calculates ATS compatibility, detects skill gaps, and provides intelligent improvement suggestions using Google Gemini.
 
-An AI-powered web application that analyzes resumes, extracts important information, checks ATS compatibility, and provides smart suggestions to improve resume quality.
+This project combines rule-based analysis with LLM intelligence to simulate how real hiring systems review resumes.
 
-📌 Features
-📄 Upload Resume in PDF format
-🧠 Extract Skills, Education, and Experience
-📊 ATS Resume Score Analysis
-🔍 Keyword Matching System
-💡 Resume Improvement Suggestions
-🌐 Simple and Responsive UI
-🛠️ Tech Stack
+🎯 Problem Statement
+Many resumes get rejected by Applicant Tracking Systems (ATS) due to:
+
+Missing keywords
+Weak descriptions
+No measurable achievements
+Poor structure
+This system helps candidates analyze and improve their resumes instantly.
+
+✨ Features
+📄 Upload resume in PDF
+🧠 Extract resume text
+📊 Calculate ATS score
+🧩 Identify missing skills
+💡 Rule-based improvement suggestions
+🤖 AI-generated recommendations
+🛡 Graceful fallback when API fails
+🎨 Clean dashboard interface
+⚙ How It Works
+User uploads resume
+Text is extracted from the PDF
+Skills are matched against a database
+ATS score is calculated
+Resume sections are verified
+Gemini provides contextual advice
+Results displayed in dashboard
+🧠 Architecture
+🚀 AI Resume Analyzer
+An AI-powered web application that evaluates resumes, calculates ATS compatibility, detects skill gaps, and provides intelligent improvement suggestions using Google Gemini.
+
+This project combines rule-based analysis with LLM intelligence to simulate how real hiring systems review resumes.
+
+🎯 Problem Statement
+Many resumes get rejected by Applicant Tracking Systems (ATS) due to:
+
+Missing keywords
+Weak descriptions
+No measurable achievements
+Poor structure
+This system helps candidates analyze and improve their resumes instantly.
+
+✨ Features
+📄 Upload resume in PDF
+🧠 Extract resume text
+📊 Calculate ATS score
+🧩 Identify missing skills
+💡 Rule-based improvement suggestions
+🤖 AI-generated recommendations
+🛡 Graceful fallback when API fails
+🎨 Clean dashboard interface
+⚙ How It Works
+User uploads resume
+Text is extracted from the PDF
+Skills are matched against a database
+ATS score is calculated
+Resume sections are verified
+Gemini provides contextual advice
+Results displayed in dashboard
+🧠 Architecture
+🛠 Tech Stack
 Python
 Flask
+PyPDF2
+Google Gemini API
 HTML
 CSS
-JavaScript
-NLP (Natural Language Processing)
-📂 Project Structure
-AI-Resume-Analyzer/
-│── app.py
-│── requirements.txt
-│── README.md
-│
-├── static/
-│   ├── style.css
-│   └── bg3d.js
-│
-├── templates/
-│   ├── index.html
-│   ├── login.html
-│   ├── register.html
-│   └── result.html
-│
-└── uploads/
-⚡ Installation
-git clone https://github.com/swaroopch24/AI-Resume-Analyzer.git
-cd AI-Resume-Analyzer
-pip install -r requirements.txt
-python app.py
-▶️ Run the Project
-
-Open browser and visit:
-
+▶ Run Locally
+1. Clone repository
+2. Install dependencies
+3. Create .env
+4. Start server
+Open browser →
 http://127.0.0.1:5000
-🔗 GitHub Repository
 
-AI-Resume-Analyzer GitHub Repository
+📸 Screenshots
+Landing Page
+(Add image)
 
-🎯 Future Improvements
-AI Resume Recommendations
-Job Role Based Analysis
-LinkedIn Integration
-Resume Templates
-Multi-language Support
-🤝 Contributing
+Analysis Dashboard
+(Add image)
 
-Contributions are welcome!
-Fork the repository and submit a pull request.
+🎯 Use Cases
+Students preparing for placements
+Resume improvement
+ATS preparation
+Skill gap analysis
+Career development
+🛡 Reliability
+If Gemini API is unavailable or quota exceeds, the system:
 
-📜 License
+prevents crashes
+shows fallback suggestions
+maintains smooth user experience
+🔮 Future Improvements
+Job description vs resume match
+AI bullet rewriting
+Recruiter rating
+Role recommendations
+Downloadable report
+Multi-resume comparison
+👨‍💻 Author
+Lalith Charan
+Aspiring Software / AI Engineer
 
-This project is licensed under the MIT License.
-
-⭐ Don’t forget to star the repository if you like this project!
+⭐ Support
+If you like this project, please give it a star ⭐..
